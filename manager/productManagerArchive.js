@@ -109,7 +109,7 @@ class ProductManager {
 }
 
 // Crear una instancia de ProductManager con la nueva ruta del archivo
-const manager = new ProductManager('.mockDB/products.json');
+const manager = new ProductManager('./mockDB/products.json');
 
 // //manager.getProducts().then(console.log);
 
